@@ -13,20 +13,27 @@
         <!-- GOOGLE FONT -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@900&family=Sacramento&family=Silkscreen&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@400;900&family=Sacramento&family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="./styles.css">
+
+        <!-- FONT-AWESOME -->
+        <script src="https://kit.fontawesome.com/23edcd80b5.js" crossorigin="anonymous"></script>
 
         <!-- favicon -->
         <link rel="icon" href="Ricon.png">
 
 
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar" data-offset="0">
+
         <section id="title">
             <div class="container-fluid title-container">
-                <nav class="navbar navbar-expand-lg  ">
+                <nav class="navbar navbar-expand-lg fixed-top " id="navbar">
                     <div class="container-fluid">
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -34,33 +41,84 @@
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#title">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="#about">About Me</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact-me">Contact</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Anime</a>
+                            <a class="nav-link" aria-disabled="true">Anime</a>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </nav>
-                <div class="intro-clouds-grid">
-                    <h1>I'm Rudra.</h1>
-                    <h3>a <span class="auto-type"></span></h3>
-                    <img src="./assets/cloud.svg" class="clouds cloud-top">
-                    <img src="./assets/cloud.svg" class="clouds cloud-bottom">
-                </div>
-                <div class="mountains-div">
+                  <div class="intro-clouds-grid">
+                      <h1>I'm Rudra.</h1>
+                      <h3>a <span class="auto-type"></span></h3>
+                      <img src="./assets/cloud.svg" class="clouds cloud-top">
+                      <img src="./assets/cloud.svg" class="clouds cloud-bottom">  
+                  </div>
+                  <div class="mountains-div">
                     <img src="./assets/mountain.png" class="mountain">
-                </div>
+                  </div>
+               
             </div>
         </section>
-        
+         
+        <section id="about">
+          <div class="about-me">
+            <img src="./assets/houtarou-oreki-render-by-hannah-bananana-d729reh-2159801876-modified.png">
+            <h2>HEY!</h2>
+            <p>I'm Rudra an IT student and a weeb.</p>
+            <p>I've just started web dev and I'm loving it.</p>
+            <hr>
+            <div class="skills">
+              <h2>My Skills</h2>
+              <div class="skill-row">
+                <img class="about-me-img" src="https://cdn-icons-png.flaticon.com/512/3749/3749770.png" alt="computer.png">
+                <h3 class="coding">CODING</h3>
+                <p>I know some basic python & C along with C++</p>
+              </div>
+              <div class="skill-row" style="padding-bottom: 0;">
+                <img class="about-me-img" src="https://cdn-icons-png.flaticon.com/512/2314/2314736.png"
+                        alt="anime.png">
+                <h3>Editing & Rice</h3>
+                <p>Apart from coding I also love making anime edits and Eating Rice</p>
+                <h3 style="padding-top:30px ;">Cat</h3>
+                <img class="middle-container-img" src="https://cdn-icons-png.flaticon.com/512/1818/1818298.png"
+                alt="cat.png">
+                <p>paws</p>
+              </div>
+              <hr style="margin-bottom: 0;"> 
+            </div>
+          </div>
+         
+        </section>
+
+        <section id="contact-me">
+          <div class="contact">
+            <h2>Get In Touch</h2>
+            <h3>IF YOU LOVE HINATA AS MUCH AS I DO.</h3>
+            <p>We can talk about our fav anime and characters and about just how awesome one piece is.</p>
+          </div>
+          <a class="btn" href="mailto:rudrakanttiwari2002@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i> 
+            <span style="padding-left: 6px;">MESSAGE ME</span> </a>
+        </section>
+       
+        <section id="footer">
+          <a class="footer-link" href=""><i class="fa-brands fa-linkedin" style="color: #11999E;"></i></a>
+         
+          <a class="footer-link" href=""><i class="fa-brands fa-instagram" style=" color: #11999E"></i></a>
+          <a class="footer-link" href=""><i class="fa-brands fa-pinterest" style="color: #11999E"></i></a>
+          <a class="footer-link" href="https://twitter.com/RudraKantTiwar4"><i class="fa-brands fa-x-twitter" style="color: #66BFBF"></i></a>
+          <p class="copyright">©2022 Rudra-KT All rights reserved.</p>
+        </section>
+
+
 
         <!-- TYPED JS -->
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
