@@ -70,7 +70,7 @@ hr{
 
 
 .clouds{
-    width: 10rem;
+    width: 11.8rem;
     animation: move 2s infinite;
     position: relative;
     top: 0;
@@ -167,7 +167,7 @@ hr{
 
 #footer{
     background-color: #cdf0ea;
-    padding-top: 100px;
+    padding-top: 130px;
   }
 .footer-link{
     text-decoration: none;
