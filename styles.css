@@ -8,11 +8,11 @@ h2{
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal ;
-    font-size: 45px;
+    font-size: 40px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: normal ;
 }
 p{
@@ -53,13 +53,13 @@ hr{
 }
 
 .intro-clouds-grid>h1{
-    font-size: 7rem;
+    font-size: 5rem;
     font-family: 'Sacramento', cursive;
     grid-area: 2/2/2/4;
 }
 .intro-clouds-grid>h3{
     font-family: 'Silkscreen', cursive;
-    font-size: 2rem;
+    font-size: 1.5rem;
     grid-area: 3/2/3/4;
 }
 
@@ -70,7 +70,7 @@ hr{
 
 
 .clouds{
-    width: 17rem;
+    width: 10rem;
     animation: move 2s infinite;
     position: relative;
     top: 0;
@@ -91,7 +91,7 @@ hr{
 .mountain{
     position: absolute;
     bottom: 0;
-    width: 39%;
+    width: 37%;
 }
 
 /* ABOUT ME */
@@ -102,10 +102,10 @@ hr{
     color: #66BFBF;
 }
 .about-me img{
-    width: 200px;
+    width: 180px;
 }
 .about-me>p{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(27, 27, 27);
 }
 
@@ -117,7 +117,7 @@ hr{
     padding-top: 70px;
 }
 .skill-row>p{
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     padding-top: 15px;
     font-weight: lighter;
@@ -140,7 +140,7 @@ hr{
     color: #11999E;
 }
 .contact>p{
-    font-size: 21px;
+    font-size: 16px;
 }
 .btn {
     position: relative;
@@ -151,7 +151,7 @@ hr{
     border-radius: 5px;
     font-family:'Merriweather Sans', sans-seri;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     transition: top 0.5s ease;
@@ -173,7 +173,7 @@ hr{
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
 .copyright{
     padding-top: 25px;
